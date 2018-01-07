@@ -38,8 +38,12 @@ def play(): #播放
 def main():
     wait()
     record()
-    text = json.loads(distinguish())['result'][0]
+    text = json.loads(distinguish())
     print( text )
+    try:
+        text = text['result'][0]
+    except:
+        text = '发生了一点错误'
     synthesis(text)
     play()
 
