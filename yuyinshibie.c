@@ -3,7 +3,7 @@
 int main(int argc, char const *argv[])
 {
 	while(true)
-		system("python MojiWeather.py");
+		system("python test.py");
 	
 	return 0;
 }
