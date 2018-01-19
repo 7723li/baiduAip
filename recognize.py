@@ -47,6 +47,6 @@ def main():
     synthesis(text)
     play()
 
-if __name__ == '__main__':
-    main()
+#if __name__ == '__main__':
+#    main()
     

@@ -8,7 +8,7 @@ class wave_record(object):
 		self.NUM_SAMPLES = 2000 # 一次性录音采样字节大小
 		self.channels = 1 # 声道
 		self.sampwidth = 2 # 采样字节 1 or 2
-		self.TIME = 2 * 6 # 控制录音时间 应为 积的1/4
+		self.TIME = 2 * 6 * 2 # 控制录音时间 应为 积的1/4
 
 	# 读Wav文件
 	def read(self,filename):
